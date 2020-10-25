@@ -1,0 +1,4 @@
+Links = //h2/a[contains(@href, "larepublica.co") and @href!="https://www.larepublica.co/"][not(contains(@href, "/inside/video/"))]/@href
+Title = //div[contains(@class,continer)]/div[@class="mb-auto"]/h2/a/text()
+abstrac = //div[@class="lead"]/p/text()
+body = //div[@class="html-content"]/p/descendant-or-self::*/text()
